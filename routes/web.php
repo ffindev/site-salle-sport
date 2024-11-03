@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\AccueilController;
+use App\Http\Controllers\CoursController;
+use App\Http\Controllers\TarifsController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MentionsLegalesController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {

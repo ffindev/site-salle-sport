@@ -11,7 +11,7 @@
     <p>Vous êtes sur la page tarifs.</p>
 
     <a href="{{ url('/') }}">aller à la page accueil</a><br>
-    <a href="{{ url('/tarifs') }}">aller à la page tarifs</a><br>
+    <a href="{{ url('/cours') }}">aller à la page cours</a><br>
     <a href="{{ url('/contact') }}">aller à la page contact</a><br>
     <a href="{{ url('/mentions-legales') }}">aller à la page mentions-legales</a><br>
 </body>
