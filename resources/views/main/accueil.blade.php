@@ -9,8 +9,12 @@
 </head>
 <body>
     <h1>Accueil</h1>
-    <p>
-        Vous êtes sur la page d'accueil.
-    </p>
+    <p>Vous êtes sur la page d'accueil.</p>
+
+    <a href="{{ url('/cours') }}">aller à la page cours</a><br>
+    <a href="{{ url('/tarifs') }}">aller à la page tarifs</a><br>
+    <a href="{{ url('/contact') }}">aller à la page contact</a><br>
+    <a href="{{ url('/mentions-legales') }}">aller à la page mentions-legales</a><br>
+
 </body>
 </html>
