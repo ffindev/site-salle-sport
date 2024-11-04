@@ -1,0 +1,41 @@
+[33mcommit ffa3c7d825056bf8f3d45a88a8c1f420c260ab70[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ffindev <freddy.fond@gmail.com>
+Date:   Mon Nov 4 16:11:10 2024 +0100
+
+    Extension du template de base
+
+[33mcommit 53fc9d5dfd6b5ae3883e7b3d84d756456107d212[m
+Author: ffindev <freddy.fond@gmail.com>
+Date:   Sun Nov 3 20:43:25 2024 +0100
+
+    Création du template de base
+
+[33mcommit e4dea10c7c25a27694382f9e09d0b7447d325a04[m
+Author: ffindev <freddy.fond@gmail.com>
+Date:   Sun Nov 3 18:38:50 2024 +0100
+
+    Ajout des fonctions index dans les controllers
+
+[33mcommit c9ba194cc90f1b251dec8daba772b66bb06dc0bd[m
+Author: ffindev <freddy.fond@gmail.com>
+Date:   Sun Nov 3 18:25:25 2024 +0100
+
+    Création des Controllers
+
+[33mcommit 6427bc08cd796e4b8df2b8ff8fb1c75bd3532da2[m
+Author: ffindev <freddy.fond@gmail.com>
+Date:   Sun Nov 3 17:38:29 2024 +0100
+
+    Création des routes
+
+[33mcommit 99d23ff0eef5f1c38d11d063b11b370f48804baf[m
+Author: ffindev <freddy.fond@gmail.com>
+Date:   Sat Nov 2 21:35:48 2024 +0100
+
+    Configuration de Laravel
+
+[33mcommit 760f54083e2f1bfd148221d8440477f1dbd62423[m
+Author: ffindev <freddy.fond@gmail.com>
+Date:   Sat Nov 2 19:24:12 2024 +0100
+
+    Création du projet site-salle-sport

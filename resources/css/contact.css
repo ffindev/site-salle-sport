@@ -1,0 +1,18 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+textarea{
+    text-align: center;
+}
+
+iframe{
+    margin: 30px 100px;
+}

@@ -1,0 +1,50 @@
+#weekschedule{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#week{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hours{
+    margin: 30px;
+    font-size: larger;
+}
+
+.activities{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.gympresentationpics{
+    width: 85%;
+    margin: 50px auto;
+}
+
+#day1{
+    text-align: center;
+    display: block;
+}
+
+#day2{
+    text-align: center;
+    display: block;
+}
+
+#day3{
+    text-align: center;
+    display: block;
+}
+
+#day4{
+    text-align: center;
+    display: block;
+}
+
+#day5{
+    text-align: center;
+    display: block;
+}

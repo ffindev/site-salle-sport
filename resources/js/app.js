@@ -1,4 +1,4 @@
 import './bootstrap';
 
-console.log("Hello Laravel J.S. !");
+console.log("Hello Laravel");
 

@@ -1,18 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>page tarifs</h1>
+@vite(['resources/css/tarifs.css', 'resources/js/app.js'])
 
-    <p>Vous êtes sur la page tarifs.</p>
+@extends('base')
 
-    <a href="{{ url('/') }}">aller à la page accueil</a><br>
-    <a href="{{ url('/cours') }}">aller à la page cours</a><br>
-    <a href="{{ url('/contact') }}">aller à la page contact</a><br>
-    <a href="{{ url('/mentions-legales') }}">aller à la page mentions-legales</a><br>
-</body>
-</html>
+@section('title', 'Tarifs')
+
+@section('content')
+
+    <h2 id="pagestart">Vous êtes sur la page tarifs.</h2>
+
+    <div id="prices">
+        <div id="subscribe1">
+            <p class="kindofsubscribe">Adhésion annuelle à l'association</p>
+            <p class="cost">15 €</p>
+        </div>
+
+        <div id="subscribe2">
+            <p class="kindofsubscribe">La séance</p>
+            <p class="cost">10 €</p>
+        </div>
+
+        <div id="subscribe3">
+            <p class="kindofsubscribe">Le carnet de 10 séances</p>
+            <p class="cost">90 €</p>
+        </div>
+
+        <div id="subscribe4">
+            <p class="kindofsubscribe">Abonnement mensuel illimité sans cours</p>
+            <p class="cost">30 €</p>
+        </div>
+
+        <div id="subscribe5">
+            <p class="kindofsubscribe">Abonnement mensuel illimité sans cours</p>
+            <p class="cost">60 €</p>
+        </div>
+    </div>
+
+@endsection

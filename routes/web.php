@@ -7,22 +7,12 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MentionsLegalesController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('main/accueil');
-});
+Route::get('/', [AccueilController::class, 'index'])->name('accueil');
 
-Route::get('/contact', function () {
-    return view('main/contact');
-});
+Route::get('/cours', [CoursController::class, 'index'])->name('cours');
 
-Route::get('/cours', function () {
-    return view('main/cours');
-});
+Route::get('/tarifs', [TarifsController::class, 'index'])->name('tarifs');
 
-Route::get('/mentions-legales', function () {
-    return view('main/mentions-legales');
-});
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
-Route::get('/tarifs', function () {
-    return view('main/tarifs');
-});
+Route::get('/mentions-legales', [MentionsLegalesController::class, 'index'])->name('mentions-legales');

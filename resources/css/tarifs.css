@@ -1,0 +1,49 @@
+#prices{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kindofsubscribe{
+    margin: 30px;
+    font-size: larger;
+}
+
+.cost{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#subscribe1{
+    margin: 5px;
+    width: 600px;
+    text-align: center;
+    display: block;
+}
+
+#subscribe2{
+    margin: 5px;
+    width: 600px;
+    text-align: center;
+    display: block;
+}
+
+#subscribe3{
+    margin: 5px;
+    width: 600px;
+    text-align: center;
+    display: block;
+}
+
+#subscribe4{
+    margin: 5px;
+    width: 600px;
+    text-align: center;
+    display: block;
+}
+
+#subscribe5{
+    margin: 5px;
+    width: 600px;
+    text-align: center;
+    display: block;
+}
