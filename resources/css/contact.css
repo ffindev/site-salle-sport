@@ -7,12 +7,29 @@
 
 input{
     text-align: center;
+    border-radius: 15px;
 }
 
 textarea{
     text-align: center;
+    text-justify: auto;
+    border-radius: 15px;
 }
 
 iframe{
-    margin: 30px 100px;
+    height: 350px;
+    margin: 30px 80px;
+    border-radius: 15px;
+}
+
+form{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+button{
+    background-color: white;
+    height: 25px;
+    width: 200px;
+    border-radius: 15px;
 }
