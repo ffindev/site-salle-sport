@@ -24,7 +24,7 @@
             <a class="navlinks" href="{{ route('cours')}}">Cours</a>
             <a class="navlinks" href="{{ route('tarifs') }}">Tarifs</a>
             <a class="navlinks" href="{{ route('contact') }}">Contact</a>
-            <a class="navlinks" href="{{ route('mentions-legales') }}">MentionsLegales</a>
+            <a class="navlinks" href="{{ route('mentions-legales') }}">Mentions Légales</a>
         </div>
 
     </header>
@@ -39,7 +39,7 @@
         <a id="legallink" href="{{ route('mentions-legales') }}">MentionsLegales</a>
 
         <div id="credits">
-        <a>site-salle-sport© tous droits réservés 2024</a>
+        <a>FitZone© tous droits réservés 2024</a>
         
         <a>concepteur du site : F.FOND</a>
         </div>

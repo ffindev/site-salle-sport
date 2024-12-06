@@ -6,7 +6,8 @@
 
 @section('content')
 
-    <h2 id="pagestart">Vous êtes sur la page cours.</h2>
+<p id="story">Rejoignez nos cours collectifs variés et motivants, conçus pour tous les niveaux. Que vous soyez amateur de Zumba, passionné de Yoga ou adepte du CrossFit, nous avons un programme pour vous ! Découvrez notre planning hebdomadaire et inscrivez-vous dès aujourd’hui pour participer à une séance d’essai gratuite.
+  </p>
 
     <p id="weekschedule">Agenda de la semaine</p>
 

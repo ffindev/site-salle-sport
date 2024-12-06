@@ -6,7 +6,9 @@
 
 @section('content')
 
-    <h2 id="pagestart">Vous êtes sur la page contact.</h2>
+<p id="story">
+    Vous avez des questions sur nos cours, nos horaires ou nos tarifs ? Notre équipe est là pour vous répondre ! N’hésitez pas à nous envoyer un message ou à nous rendre visite directement à la salle.
+</p>
 
     <div id="container">
 
